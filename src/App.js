@@ -1,12 +1,11 @@
-import logo from './logo.svg';
+import Rotas from './Rotas.js';
 import './App.css';
-import Home from './components/home';
 
 function App() {
   return (
     <div>
       <header>
-        <Home />
+        <Rotas />
       </header>
     </div>
   );
